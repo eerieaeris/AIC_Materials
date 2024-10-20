@@ -233,3 +233,6 @@ function provisioning_download() {
 }
 
 provisioning_start
+
+curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
+filebrowser -r /workspace/
